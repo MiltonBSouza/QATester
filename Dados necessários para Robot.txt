@@ -1,0 +1,8 @@
+1 - Pyton
+
+2 - Robot
+
+3 - Libraty Selenium
+
+4 - Library screencaplibrary
+pip install --upgrade robotframework-screencaplibrary
