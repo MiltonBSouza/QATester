@@ -11,7 +11,7 @@ abrir site Automacao
 
 inserir dados
 
-    Input text                  ${Input_Pesquisa}   CT&I
+    Input text                  ${Input_Pesquisa}   CT
     Set Browser Implicit Wait   5s
     Click Element               ${Div_PesqAvançada}
 
