@@ -1,6 +1,8 @@
 Para rodar o Robot Framework, devemos ter algumas coisas instaladas.. por favor siga segue nessa sequência e o mais importante.. não entre em pânico!! :) 
-1 - Programa Python - Ná página abaixo você clicar direto na opção 'Download Python 3.10.4'
-https://www.python.org/downloads/
+
+1 - Programa Python - Ná página abaixo você deve clicar na opção 'Download Python 3.10.4'
+'https://www.python.org/downloads/'
+
 Sem nenhum mistério, só abrir o python.exe e não esqueça de abilitar a checkbox de PATH para facilitar a nossa vida! :3
 Após a instalação segue esse comando pelo Prompt de de Comando:
 pip --version
@@ -13,3 +15,16 @@ pip install robotframework
 pip install robotframework-seleniumlibrary
 
 pip install --upgrade robotframework-screencaplibrary
+
+4 - Agora precisamos do chromedriver para seguirmos com nosso projeto. Por favor baixe a versão 'chromedriver_win32' e faça a extração da no mesmo local.
+'https://chromedriver.storage.googleapis.com/index.html?path=101.0.4951.41/'
+
+Note que será necessario um programa para abrir esse aquivo '.zip'. Casa não tenha nenhum que faça extração, aconcelho o WinRar disponivel em 'https://www.win-rar.com/start.html?&L=0'.
+
+5 - Após estrair a pasta em 'chromedriver_win32.zip', abra a opção de 'Editar variáveis de ambientes do sistema'. Basta pesquisar a palavra 'variáveis' na barra de pesquisa do menu iniciar e clicar na única opção disponivel.
+
+6 - Na nova tela clique na opção 'Variáveis de Ambiente..', na nova tela, dentro do campo 'Variáveis de úsuario	', dê duplo-clique na opção Path.
+
+7 - Na nova tela dê duplo-clique na opção com final 'Python\Python310\Scripts\' e copie todo o caminho e cole na barra de pesquisa do menu iniciar, então prescione enter.
+
+8 - Copie o arquivo 'chromedriver.exe' dentro pasta estraida de 'chromedriver_win32.zip'
