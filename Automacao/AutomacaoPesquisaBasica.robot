@@ -11,7 +11,7 @@ abrir site Automacao
 
 inserir dados
 
-    Input text                  ${Input_Pesquisa}   CT&I
+    Input text                  ${Input_Pesquisa}   CT
     Click Element               ${Input_Search}
 
 Validar Conta conectada
