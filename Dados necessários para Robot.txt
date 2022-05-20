@@ -1,8 +1,15 @@
-1 - Pyton
+Para rodar o Robot Framework, devemos ter algumas coisas instaladas.. por favor siga segue nessa sequência e o mais importante.. não entre em pânico!! :) 
+1 - Programa Python - Ná página abaixo você clicar direto na opção 'Download Python 3.10.4'
+https://www.python.org/downloads/
+Sem nenhum mistério, só abrir o python.exe e não esqueça de abilitar a checkbox de PATH para facilitar a nossa vida! :3
+Após a instalação segue esse comando pelo Prompt de de Comando:
+pip --version
 
-2 - Robot
+2 - Se até então tudo ok, vamos seguir com a instalação do Robot via Prompt de de Comando:
+pip install robotframework
 
-3 - Libraty Selenium
+3 - Agora chegamos na parte final! Vamos seguir com a instalação das bibliotecas Selenium e screencaplibrary. Ainda no Prompt de de Comando siga os comandos:
 
-4 - Library screencaplibrary
+pip install robotframework-seleniumlibrary
+
 pip install --upgrade robotframework-screencaplibrary
